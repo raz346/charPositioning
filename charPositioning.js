@@ -7,7 +7,7 @@ function countLetters(sentence) {
     var currentChar = sentence[i];
     if ( currentChar !== " "){
     if ( currentChar in lettersCount) {
-      // push to the object
+      // push to the obj
       lettersCount[currentChar].push(i) ;
 
     }
